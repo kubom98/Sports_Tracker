@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Sports Tracker</string>
+    <string name="settings">Nastavenia</string>
+    <string name="main_menu">Hlavné menu</string>
+    <string name="all_activities">Všetky aktivity</string>
+    <string name="statistics">Štatistiky</string>
+    <string name="distance">Vzdialenosť (km)</string>
+    <string name="choose_sport">Vyberte šport: </string>
+    <string name="time_from">Čas začiatku</string>
+    <string name="time_to">Čas konca</string>
+    <string name="time_from_is">Čas začiatku je: </string>
+    <string name="time_to_is">Čas konca je: </string>
+    <string name="distance_is">Vzdialenosť: </string>
+    <string name="added_activity">Aktivita bola pridaná!</string>
+
+    <string-array name="sports">
+        <item>Basketbal</item>
+        <item>Box</item>
+        <item>Cyklistika</item>
+        <item>Futbal</item>
+        <item>Posilňovanie</item>
+        <item>Gymnastika</item>
+        <item>Korčuľovanie</item>
+        <item>Beh</item>
+        <item>Lyžovanie</item>
+        <item>Plávanie</item>
+        <item>Tenis</item>
+    </string-array>
+
+</resources>

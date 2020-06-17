@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sports Tracker</string>
+    <string name="settings">Settings</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="all_activities">All Activities</string>
+    <string name="statistics">Statistics</string>
+    <string name="distance">Distance (km)</string>
+    <string name="choose_sport">"Choose Sport: "</string>
+    <string name="time_from">Start time</string>
+    <string name="time_to">End time</string>
+    <string name="time_from_is">Start time is: </string>
+    <string name="time_to_is">End time is: </string>
+    <string name="distance_is">Distance:  </string>
+    <string name="added_activity">Activity was added!</string>
+
+    <string-array name="sports">
+        <item>Basketball</item>
+        <item>Box</item>
+        <item>Cycling</item>
+        <item>Football</item>
+        <item>Gym</item>
+        <item>Gymnastics</item>
+        <item>Roller skating</item>
+        <item>Running</item>
+        <item>Skiing</item>
+        <item>Swimming</item>
+        <item>Tennis</item>
+    </string-array>
+
+</resources>
