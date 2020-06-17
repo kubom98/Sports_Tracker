@@ -12,6 +12,10 @@
     <string name="time_to_is">Čas konca je: </string>
     <string name="distance_is">Vzdialenosť: </string>
     <string name="added_activity">Aktivita bola pridaná!</string>
+    <string name="delete">Vymazať aktivitu.</string>
+    <string name="sure_to_delete">Ste si istý, že chcete vymazať túto aktivitu?</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
 
     <string-array name="sports">
         <item>Basketbal</item>

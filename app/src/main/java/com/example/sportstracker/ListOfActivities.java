@@ -114,7 +114,8 @@ public class ListOfActivities extends AppCompatActivity implements SportOnClicke
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
 
-                //   activityViewModel.deleteActvity(activityListAdapter.getItem(viewHolder.getLayoutPosition()));
+                //  activityViewModel.deleteActvity(activityListAdapter.getItem(viewHolder.getLayoutPosition()));
+
             }
         };
         new ItemTouchHelper(swipeCallback).attachToRecyclerView(activityRecyclerView);
