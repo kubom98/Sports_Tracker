@@ -3,6 +3,7 @@ package com.example.sportstracker;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.EditText;
@@ -113,7 +114,6 @@ public class ListOfActivities extends AppCompatActivity implements SportOnClicke
 
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-
                 //  activityViewModel.deleteActvity(activityListAdapter.getItem(viewHolder.getLayoutPosition()));
 
             }
@@ -167,14 +167,16 @@ public class ListOfActivities extends AppCompatActivity implements SportOnClicke
                         break;
                 }
 
-                this.timeFromText.setText(R.string.time_from_is);
-                this.timeToText.setText(R.string.time_to_is);
-                this.distanceText.setText(R.string.distance_is);
-
                 SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+
+                this.timeFromText.setText(R.string.time_from_is);
                 this.timeFromTextView.setText(sdf.format(activity.getTimeFrom()));
+
+                this.timeToText.setText(R.string.time_to_is);
                 this.timeToTextView.setText(sdf.format(activity.getTimeTo()));
+
                 if (activity.getDistance() != 0) {
+                    this.distanceText.setText(R.string.distance_is);
                     this.distanceTextView.setText(activity.getDistance() + " km");
                 }
             }

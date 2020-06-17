@@ -21,4 +21,5 @@ interface ActivityDao {
 
     @Delete
     void deleteActivity(Activity activity);
+
 }
